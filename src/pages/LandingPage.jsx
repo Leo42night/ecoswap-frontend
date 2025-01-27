@@ -1,6 +1,6 @@
 // import React from 'react'
 import Background from "../components/Background";
-import NavBar from "../components/NavBar";
+import UserNavBar from "../components/UserNavBar";
 import SearchBar from "../components/SearchBar";
 import Blogs from "../components/Blogs";
 import EcoFooter from "../components/EcoFooter";
@@ -12,7 +12,7 @@ export default function landingPage() {
   return (
     <>
       <Background />
-      <NavBar />
+      <UserNavBar />
       {/* big size header */}
       <header className="flex flex-col items-center relative h-screen w-full">
         <div className="z-10 h-full min-w-full container px-4 md:px-8">
