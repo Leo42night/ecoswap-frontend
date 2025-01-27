@@ -1,8 +1,21 @@
-# React + Vite
+# EcoSwap Front End
+Halaman front end untuk lomba Feb 6, backend akan dikerjakan di repo lain.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Cara Aman Merging repo di local dan remote
+1. Periksa Status Lokal `git status`
+2. Lakukan Pull Terlebih Dahulu `git pull origin <branch>`
+3. Stash Jika Ada Perubahan Lokal `git stash`. setelah pull, perubahan dapat dikembalikan `git pop`
+4. Lakukan Merge Manual Jika Diperlukan, buat branch untuk backup sebelum pull di `main`, `git branch <backup-branch>`
+5. Tangani konflik merge:
+   - Buka file conflict dan cari tanda konflik seperti ini:
+```
+ <<<<<<< HEAD
+(versi lokal)
+=======
+(versi remote)
+ >>>>>>> (commit ID)
 
-Currently, two official plugins are available:
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   - Perbaiki konflik sesuai kebutuhan, lalu tandai konflik sudah selesai dengan `git add <file-yang-diperbaiki>`
+   - Lanjutkan proses merge dengan: `git commit`

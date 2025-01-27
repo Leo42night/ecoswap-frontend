@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Link } from "react-router";
-import { productCatalogs } from "../constants";
+import { productCatalogs } from "../../constants";
 
 export default function Catalog() {
   const currentUser = true;

@@ -1,7 +1,7 @@
 // import React from 'react'
 import Backgrund from "../components/Background";
 import SearchBar from "../components/SearchBar";
-import Blog from "../components/Blog";
+import Blogs from "../components/Blogs";
 import EcoFooter from "../components/EcoFooter";
 import { Link } from "react-router";
 import NavBar from "../components/NavBar";
@@ -239,7 +239,7 @@ export default function landingPage() {
           </div>
         </section>
         <section className="flex flex-col px-4 sm:px-12 py-4 sm:py-12 bg-neat-50 overflow-x-hidden">
-          <Blog />
+          <Blogs />
         </section>
       </main>
       <EcoFooter />

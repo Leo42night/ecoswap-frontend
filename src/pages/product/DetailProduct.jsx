@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams } from "react-router";
 import { useNavigate } from "react-router";
-import { productBySlug } from "../constants";
+import { productBySlug } from "../../constants";
 
 export default function DetailProduct() {
   // const currentUser = undefined;

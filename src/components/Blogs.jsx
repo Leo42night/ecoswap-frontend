@@ -1,6 +1,6 @@
 // import React from 'react'
 
-export default function Blog() {
+export default function Blogs() {
   return (
     <>
     <h2 className="text-2xl font-semibold">Rekomendasi Blog</h2>
