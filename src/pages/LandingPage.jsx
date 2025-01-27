@@ -1,18 +1,18 @@
 // import React from 'react'
-import Backgrund from "../components/Background";
+import Background from "../components/Background";
+import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 import Blogs from "../components/Blogs";
 import EcoFooter from "../components/EcoFooter";
 import { Link } from "react-router";
-import NavBar from "../components/NavBar";
 
 const currentUser = undefined;
 
 export default function landingPage() {
   return (
     <>
+      <Background />
       <NavBar />
-      <Backgrund />
       {/* big size header */}
       <header className="flex flex-col items-center relative h-screen w-full">
         <div className="z-10 h-full min-w-full container px-4 md:px-8">
